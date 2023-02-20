@@ -1,0 +1,200 @@
+/*
+* Primary: #8C0707
+* Second: #590404
+*
+*
+*/
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    display: grid;
+    background-image: url(/images/images.jpg);
+    background-size: cover;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    padding-top: auto;
+    padding-bottom: auto;
+    background-color: #1C0101;
+    height: 4rem;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+header section#logo {
+    color: #8C0707;
+    font-weight: bold;
+    font-size: 1.5rem;
+    filter: saturate(200%);
+}
+
+header nav#nav-main {
+    display: flex;
+    justify-content: right;
+}
+
+header nav#nav-main .nav-item {
+    margin: 0 0.2rem;
+    text-decoration: none;
+    color: #8C0707;
+    font-size: 1.2rem;
+    filter: saturate(200%);
+}
+
+header nav#nav-main a.nav-item {
+    padding: 0 0.4rem;
+}
+
+header nav#nav-main .nav-item-current {
+    filter: saturate(400%);
+    font-weight: bold;
+}
+header nav#nav-main a.nav-item:hover {
+    text-decoration: underline;
+}
+
+#main-body {
+    margin: 0 3rem;
+    background-color: #fcfcfc;
+}
+
+main section.Intro {
+    background-color: #8C0707;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+main section.main-items {
+    padding: 0 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+main section.main-text {
+    margin: 0 1rem;
+}
+
+main section.main-item {
+    padding: 0 1rem;
+    margin: auto 0;
+}
+
+main section.main-img {
+    display: block;
+    margin: auto auto;
+}
+
+img.intro-img {
+    float: right;
+    height: 12rem;
+    width: 10rem;
+    margin: 0 1rem 0.5rem 0;
+}
+
+img#hoogoven2 {
+   height: 18rem;
+   width: auto;
+}
+
+img#oude-hoogoven {
+    height: 20rem;
+    width: auto;
+}
+
+img#werking-hoogoven {
+    height: 20rem;
+    width: auto;
+    border: 2px solid rgba(15, 15, 15, 0.493);
+    border-radius: 1rem;
+}
+
+img#laagoven2 {
+    height: 20rem;
+    width: auto;
+    margin: 2rem 0 2rem 2rem;
+}
+
+img#puddeloven {
+    height: 20rem;
+    width: auto;
+}
+
+.grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem 3rem;
+}
+
+.small-text {
+    font-size: 0.9rem;
+};
+
+footer {
+    display: inline;
+}
+
+footer section {
+    display: flex;
+    justify-content: space-around;
+    margin: 0.8rem;
+    font-size: 0.85rem;
+}
+footer section.footer-item p{
+    display: inline;
+    color: white;
+}
+
+button {
+    border-radius: 0;
+}
+#myBtn {
+    display: none;
+    position: fixed; 
+    right: 0.415rem; 
+    bottom: 1rem;
+    z-index: 3;
+    border: none;
+    background-color: #8C0707;
+    color: #fcfcfc;
+    font-size: 1rem;
+    height: 3rem;
+    cursor: pointer;
+    padding: 0.83rem;
+    border-radius: 10px; 
+    opacity: 0.6;
+}
+  
+#myBtn:hover {
+    opacity: 1;
+    filter: saturate(200%);
+}
+
+button#light-dark-btn {
+    position: absolute;
+    right: 0;
+    border: 0.5px solid #1C0101;
+    padding: 0.1rem 0.55rem;
+    background-color: #fcfcfc;
+
+}
+button img#img-light-dark {
+    display: block;
+    margin: auto auto;
+}
+
+.light {
+    background-color: #fcfcfc;
+}
+
+.dark {
+    background-color: #999999;
+}
